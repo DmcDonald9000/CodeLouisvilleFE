@@ -1,0 +1,103 @@
+/* Base Styles for mobile first */
+
+header h1 {
+  min-width: 70%;
+  color: blue;
+  text-decoration: underline;
+}
+
+header ul {
+  background-color: lightgrey;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+h3 {
+  color: blue;
+  text-decoration: underline;
+}
+
+.foot {
+  display: flex;
+  background-color: lightgrey;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.select {
+  background-color: blue;
+}
+
+.selecthead {
+  color: white;
+}
+
+.vote {
+  color: white;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex: 1;
+}
+
+.ranks {
+  margin-top: 1em;
+}
+
+#sub {
+  color: black;
+}
+
+#dan {
+  padding-top: 1em;
+}
+
+#player_one {
+  color: black;
+}
+
+
+
+
+
+/* // Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap */
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  h3 {
+    text-align: center;
+  }
+
+  .ranks {
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: blue;
+    color: white;
+  }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .intro {
+    text-align: justify;
+    padding-left: 20px;
+  }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
