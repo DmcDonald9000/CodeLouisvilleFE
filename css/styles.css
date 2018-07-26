@@ -55,8 +55,11 @@ h3 {
   color: black;
 }
 
-#dan {
-  padding-top: 1em;
+.dan {
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  justify-content: space-around;
 }
 
 #player_one {
@@ -89,6 +92,10 @@ h3 {
   .intro {
     text-align: justify;
     padding-left: 20px;
+  }
+  .dan {
+    flex-direction: row;
+    justify-content: stretch;
   }
 }
 
